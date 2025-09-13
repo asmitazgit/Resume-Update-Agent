@@ -29,6 +29,63 @@
 - **System Output**: Updated resume emphasizing AWS, EC2, RDS, CloudFormation, Route53.  
 - **File Saved**: `/output/resume_AWS_Cloud_Architect.docx`.  
 
+## Agents for Resume Update Flow
+
+## Input & Parsing Agent
+
+Accepts user’s resume (PDF/Word/Text).
+
+Parses it into structured data (sections, experience, skills).
+
+Cleans formatting & extracts metadata.
+
+## Job Description Analyzer Agent
+
+Takes the job description (JD).
+
+Extracts required skills, tools, keywords, and responsibilities.
+
+Identifies role-specific priorities.
+
+## Gap Analysis Agent
+
+Compares resume data vs. JD requirements.
+
+Identifies missing keywords/skills.
+
+Suggests areas to highlight or update.
+
+## Resume Drafting Agent
+
+Generates updated resume draft tailored to JD.
+
+Rewrites sections (Summary, Experience, Skills) using AI.
+
+Ensures ATS (Applicant Tracking System) compatibility.
+
+## Optimization Agent
+
+Improves readability and formatting.
+
+Suggests action verbs, quantifiable achievements.
+
+Ensures clarity, grammar, and structure.
+
+## Feedback & Revision Agent
+
+Interacts with user for approval/rejection of changes.
+
+Applies revisions iteratively.
+
+Supports “shorter version” or “highlight AWS experience” kind of requests.
+
+## Export Agent
+
+Converts final draft into chosen format (PDF, Word, Markdown).
+
+Ensures consistent formatting and professional look.
+
+Provides downloadable file.
 ---
 
 ## Future Enhancements
